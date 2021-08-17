@@ -23,7 +23,7 @@ this.state ={
         <div className="vaccine__item">{this.props.nameInter}</div>
         <div className="vaccine__item">{this.props.produce}</div>
         <div className="vaccine__item">{this.props.technology}</div>
-<h1>hello</h1>
+
       <div>{this.state.shot}</div>
       <div>{this.state.have}</div>
 
