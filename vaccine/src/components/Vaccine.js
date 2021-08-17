@@ -7,7 +7,7 @@ class Vaccine extends React.Component {
   constructor(props){
 super(props);
 this.state ={
-  shot:1000000,
+  shot:100000,
   have:true
 } ;
   }
@@ -23,7 +23,7 @@ this.state ={
         <div className="vaccine__item">{this.props.nameInter}</div>
         <div className="vaccine__item">{this.props.produce}</div>
         <div className="vaccine__item">{this.props.technology}</div>
-
+<h1>hello</h1>
       <div>{this.state.shot}</div>
       <div>{this.state.have}</div>
 
